@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.font-dancing{
+    font-family: 'Inter Tight', sans-serif;
+}
+

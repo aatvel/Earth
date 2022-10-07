@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Earth</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;1,100&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+    
+    
+            <div id="popUp" class="bg-black bg-opacity-75 fixed px-6 py-1 rounded-lg">
+                <h2 id="country" class="text-white text-s">HeadLine</h2>
+                <p id="capital" class="text-[#ced6f0] font-bold text-m">Info</p>        
+            </div>
+
+    <div class="xl:flex h-screen bg-black ">
+
+        <div class="xl:w-1/2 flex flex-col justify-center px-8 "> 
+    
+
+            <div style="max-width: 500px;" class="mx-auto">
+
+                <h1 class="text-white text-6xl font-bold  mt-8 mb-8 font-dancing leading-tight">
+                        PLANET EARTH
+                </h1>
+
+                <p class="text-[#ced6f0] text-2xl font-tight mt-8 mb-8 font-dancing">
+                        Planet Earth is the third planet from the Sun and the only astronomical object known to harbor life.
+                        While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water.
+                        About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.
+                </p>
+
+                <div> <a href="https://en.wikipedia.org/wiki/Earth" class="text-white  text-1.5xl bg-[#ff4d00] inline-block px-8 py-4 rounded-full font-dancing" >Learn More</a> </div>
+            </div>    
+
+                
+
+                        
+        </div>                                  
+            
+    
+        <div class="h-screen xl:w-1/2 " id="canvasContainer"> 
+            <canvas></canvas>
+        </div>    
+
+    </div>
+    <!-- <script type="module" src="script.js"></script> -->
+</body>
+</html>
